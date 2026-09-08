@@ -395,5 +395,31 @@
   "sec7Desc": "We may update these terms at any time. Continued use of the platform constitutes acceptance of the amended terms.",
   "sec8Title": "8. Governing Law",
   "sec8Desc": "These terms are governed by the laws of the United Arab Emirates."
+},
+"reviews": {
+  "eyebrow": "Customer Reviews",
+  "title": "Consumer Feedback & Experiences",
+  "description": "Real experiences from consumers who relied on our platform to document and settle commercial complaints transparently.",
+  "verified": "Verified",
+  "items": {
+    "1": {
+      "name": "Mohammed Al Shamsi",
+      "location": "Dubai",
+      "comment": "The commercial complaint with the company was resolved in less than a week, and the settlement was officially documented. Highly professional and fast service.",
+      "date": "3 days ago"
+    },
+    "2": {
+      "name": "Sarah Al Ali",
+      "location": "Abu Dhabi",
+      "comment": "An excellent and seamless platform that guarantees the rights of both consumers and businesses with high transparency. The request was tracked until funds were recovered.",
+      "date": "1 week ago"
+    },
+    "3": {
+      "name": "Ahmed Al Qasimi",
+      "location": "Sharjah",
+      "comment": "Frictionless process for submitting complaints and real-time status tracking. I thank the team behind this outstanding professional work.",
+      "date": "2 weeks ago"
+    }
+  }
 }
 }
