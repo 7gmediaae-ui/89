@@ -55,21 +55,21 @@ export function HeroSection({ onPrimaryClick }: HeroSectionProps) {
       </div>
 
       {/* Main content */}
-      <div className="container-page relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-20 text-center flex flex-col items-center">
+      <div className="container-page relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-20 text-center flex flex-col items-center">
 
-        {/* Heading */}
+        {/* Heading — Single Line Layout */}
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.2] tracking-tight"
+          className="flex flex-wrap justify-center items-baseline gap-x-3 gap-y-2 text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight pt-2"
         >
-          <span className="block mb-3 text-white">
+          <span className="text-white py-1">
             {t("hero.brandName", "منصة شكاوى المستهلك")}
           </span>
 
-          <span className="relative inline-block">
-            <span className="bg-gradient-to-l from-amber-200 via-amber-400 to-yellow-100 bg-clip-text text-transparent">
+          <span className="relative inline-block py-1">
+            <span className="bg-gradient-to-l from-amber-200 via-amber-400 to-yellow-100 bg-clip-text text-transparent py-1.5 leading-relaxed">
               {t("hero.mainHeading", "لرفع وتقديم شكاوى المستهلك")}
             </span>
             
